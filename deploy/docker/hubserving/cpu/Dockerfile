@@ -6,7 +6,7 @@ RUN pip3.7 install --upgrade pip -i https://mirror.baidu.com/pypi/simple
 
 RUN pip3.7 install paddlehub --upgrade -i https://mirror.baidu.com/pypi/simple
 
-# RUN git clone https://github.com/planet-2020/PaddleOCR.git /PaddleOCR
+RUN git clone https://github.com/planet-2020/PaddleOCR.git /PaddleOCR
 
 # COPY ../../../../../PaddleOCR /PaddleOCR
 
